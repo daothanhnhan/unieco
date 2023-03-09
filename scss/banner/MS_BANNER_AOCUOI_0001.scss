@@ -1,0 +1,68 @@
+#gb-banner{
+	padding-top: 87px !important;
+	padding-bottom: 130px !important;
+	background-repeat: no-repeat;
+	@media screen and (max-width: 500px) {
+		
+		h3{
+			font-size: 29px !important;
+		}
+	}
+	.gb-banner-aocuoi{
+		h3{
+			font-size: 30px;
+			line-height: 1.1875em;
+			color: #4a3e5a;
+			font-weight: 400;
+			text-transform: uppercase;
+			font-family: Raleway,sans-serif;
+		}
+		p.title{
+
+			font-size: 18px;
+			color: #656565;
+			font-family: "Playfair Display",serif;
+			font-style: italic;
+			line-height: 1.85em;
+			margin: 0;		
+			margin-bottom: 15px;
+
+		}
+		p{
+			font-size: 16px;
+			font-family: Raleway,sans-serif;
+			margin-bottom:15px;
+		}
+		a{
+			border: 1px solid #4a3e5a;
+			color: #4a3e5a;
+			background-color: transparent;
+			min-width: 145px;
+			display: inline-block;
+			vertical-align: middle;
+			overflow: hidden;
+			position: relative;
+			outline: 0;
+			padding: 8px 20px;
+			font-style: normal;
+			font-weight: 600;
+			font-family: Raleway,sans-serif;
+			font-size: 12px;
+			line-height: 1.7em;
+			text-align: center;
+			text-transform: uppercase;
+			cursor: pointer;
+			-webkit-transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out,background-position .3s ease,opacity .2s ease-out;
+			-moz-transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out,background-position .3s ease,opacity .2s ease-out;
+			transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out,background-position .3s ease,opacity .2s ease-out;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			&:hover{
+				background-color:#4a3e5a;
+				color: #fff;
+			}
+		}
+
+	}
+}

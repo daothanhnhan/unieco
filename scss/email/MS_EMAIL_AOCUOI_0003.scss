@@ -1,0 +1,40 @@
+.send-email_{
+  position: relative;
+  margin-top: 28px;
+  max-width: 317px;
+  margin-bottom: 20px;
+  input{
+    height: 50px;
+    border-radius: 0;
+    padding: 15px 20px 14px;
+      font-family: "Playfair Display",serif;
+    font-style: italic;
+     font-size: 16px;
+    font-weight: 500;
+    &::placeholder {
+      font-family: "Playfair Display",serif;
+      font-style: italic;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+       padding: 15px 22px;
+    background-color: #4a3e5a;
+    // border: 1px solid #4a3e5a;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Raleway,sans-serif;
+    &:focus,&:active,&:hover{
+         background-color: #3e4048!important;
+       color: #fff;
+    }
+  }
+}

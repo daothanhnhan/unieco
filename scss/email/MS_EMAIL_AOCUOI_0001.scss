@@ -1,0 +1,49 @@
+.input-email-send{
+  width: 60%;
+  margin: auto ;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Playfair Display",serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  @media screen and (max-width: 500px) {
+    width: 100%;
+     .btn {
+       width: 125px !important;;
+     }
+
+  }
+  input{
+    height: 64px;
+    border-radius: 0;
+    padding: 21px 25px 20px;
+    &::placeholder {
+      font-family: "Playfair Display",serif;
+      font-style: italic;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 23px 0 18px;
+    width: 180px;
+    background-color: #4a3e5a;
+    border: 1px solid #4a3e5a;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Raleway,sans-serif;
+    &:focus,&:active,&:hover{
+      background: transparent;
+      color: #4a3e5a;
+    }
+
+  }
+
+}

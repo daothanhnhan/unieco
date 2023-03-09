@@ -1,0 +1,46 @@
+
+#gb-banner {
+	.mkd-separator-with-icon-holder{
+		letter-spacing: 0;
+		font-size: 0;
+		line-height: 0;
+		margin-top: 7px;
+		margin-bottom: 18px;
+		position: relative;
+		text-align: center;
+		.mkd-separator-right {
+			display: inline-block;
+			height: 1px;
+			opacity: .5;
+			background-color: #4a3e5a;
+			width: 39px;
+			margin-left: 5px;
+		}
+		.mkd-default-icon-holder {
+			display: inline-block;
+			background-color: #4a3e5a;
+			height: 5px;
+			width: 5px;
+			position: relative;
+			top: 2px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		.mkd-separator-left {
+			display: inline-block;
+			height: 1px;
+			opacity: .5;
+			background-color: #4a3e5a;
+			width: 39px;
+			margin-right: 5px;
+		}
+
+	}
+	p.title.title-email{
+		width: 80%;
+		margin: auto ;
+		text-align: center;
+	}
+}

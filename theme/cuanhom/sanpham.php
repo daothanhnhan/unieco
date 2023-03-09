@@ -1,0 +1,1 @@
+<?php include DIR_PRODUCT."MS_PRODUCT_MYICHI_0006.php";?>
